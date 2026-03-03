@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "adaptive-slot-cursor",
+	"version": "${version}",
+	"name": "Adaptive Slot Cursor",
+	"description": "Changes the cursor based on hovering or dragging items in inventories",
+	"authors": [
+		"NamelessJu"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/adaptive-slot-cursor/icon.png",
+	"environment": "client",
+	"entrypoints": {},
+	"mixins": [
+		{
+			"config": "adaptive-slot-cursor.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": ">=1.21.9",
+		"java": ">=21"
+	}
+}
